@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+    <style>
+        body {
+            display: flex;
+            height: 80vh;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            background-color: antiquewhite;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 480px;
+            height: 380px;
+            align-items: center;
+            background-color: blueviolet;
+            padding: 20px;
+        }
+
+        form h1 {
+            margin-bottom: 40px;
+        }
+
+        form input {
+            border: 0px;
+            outline: 0px;
+            background-color: #fff;
+            color: purple;
+            width: 300px;
+            height: 30px;
+        }
+
+        .btn {
+            width: 200px;
+            margin-top: 30px;
+            background-color: orange;
+            border: 0px;
+            outline: 0px;
+            height: 35px;
+        }
+
+        .btn a {
+            color: #fff;
+            font-size: 16px;
+        }
+
+        @media (max-width:520px) {
+            form {
+                width: 360px;
+            }
+        }
+
+        @media (max-width:410px) {
+            form {
+                width: 320px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <h1>Login</h1>
+        <input type="name" placeholder="Enter username" id="name"><br>
+        <input type="password" placeholder="Enter password"><br>
+        <input type="password" placeholder="Re-nter password"><br>
+        <button class="btn"><a href="homepage.html">Login</a></button>
+        <p>No account? <a href="register.html">Register</a></p>
+    </form>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
