@@ -8,7 +8,54 @@
     <title>DeckTech Homepage</title>
     <style>
         body {
-            background-color: blanchedalmond;
+            background-image: url(IMG-20240808-WA0030.jpg);
+        }
+
+        .b {
+            text-align: center;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .registration {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .registration p {
+            color: #fff;
+            font-size: 20px;
+            font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        }
+
+        .registration button {
+            width: 100px;
+            padding: 15px 0 15px 0;
+            background-color: orange;
+            border: 0;
+            outline: 0;
+            align-self: center;
+            transition: 1s ease-out;
+            margin-bottom: 20px;
+        }
+
+        .registration button a {
+            color: #fff;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        .registration button:hover {
+            background-image: linear-gradient(to right, red, purple);
+        }
+
+        .registration h1 {
+            padding-bottom: 30px;
+            color: rgb(220, 227, 233);
+            font-family: Arial, Helvetica, sans-serif;
         }
     </style>
 </head>
@@ -33,13 +80,21 @@
             <li>
                 <a href="#" class="navbar_links">BLOG</a>
             </li>
-            <button class="hero-btn"><a href="register.html">Register</a></button>
-            <button class="hero-btn"><a href="login.html">Login</a></button>
         </div>
 
     </div>
 
+    <div class="b">
 
+        <div class="registration">
+            <h1>Welcome to DeckTech!, Where stability meets innovation solution meet exceptional result.
+                Explore our site to discover how we can elevate your outdoor living experience!
+
+            </h1>
+            <button><a href="register.html">Register</a></button>
+            <button><a href="login.html">Login</a></button>
+        </div>
+    </div>
 
     <script src="main.js"></script>
 </body>
